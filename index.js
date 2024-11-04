@@ -92,6 +92,7 @@ function populateOutputTable() {
     outputTableBody.appendChild(tableRow);
 }
 
+// Event listener
 document.getElementById("grade-input").addEventListener("keypress", (event) => {
     if (event.key === "Enter") {
         let student = captureInput();
